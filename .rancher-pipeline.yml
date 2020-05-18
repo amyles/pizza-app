@@ -2,6 +2,6 @@ stages:
 - name: dwedwed
   steps:
   - applyYamlConfig:
-      path: ./manifests/app
+      path: ./manifests/app/*.yaml
 timeout: 60
 notification: {}
