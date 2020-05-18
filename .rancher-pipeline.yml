@@ -1,0 +1,7 @@
+stages:
+- name: dwedwed
+  steps:
+  - applyYamlConfig:
+      path: ./manifest/app/
+timeout: 60
+notification: {}
