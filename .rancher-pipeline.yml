@@ -2,6 +2,6 @@ stages:
 - name: dwedwed
   steps:
   - applyYamlConfig:
-      path: ./manifests/app/pizza-server.yaml
+      path: ./manifests/app
 timeout: 60
 notification: {}
