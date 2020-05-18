@@ -3,8 +3,6 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./manifests/app/pizza-server.yaml
-- name: Pizza Client
-  steps:
   - applyYamlConfig:
       path: ./manifests/app/pizza-client.yaml
 timeout: 60
