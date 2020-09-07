@@ -2,8 +2,6 @@ stages:
 - name: Pizza Server
   steps:
   - applyYamlConfig:
-      path: ./manifests/app/app-space-namespace.yaml
-  - applyYamlConfig:
       path: ./manifests/app/pizza-client.yaml
   - applyYamlConfig:
       path: ./manifests/app/pizza-server.yaml
